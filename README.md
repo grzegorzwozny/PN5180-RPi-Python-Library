@@ -1,6 +1,6 @@
 # Library for PN5180 NFC Frontend
 
-This libary a Python version of the libary published by @ATrappmann (https://github.com/ATrappmann/PN5180-Library). 
+This libary is a Python version of the libary published by @ATrappmann (https://github.com/ATrappmann/PN5180-Library). 
 
 The library has been adapted to work under the control of the Linux (Rasbian) operating system. The software was tested on a Raspberry Pi 4 Compute Module.
 
