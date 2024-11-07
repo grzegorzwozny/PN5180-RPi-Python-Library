@@ -1,13 +1,13 @@
 # Library for PN5180 NFC Frontend
 
-This libary is a Python version of the libary published by @ATrappmann (https://github.com/ATrappmann/PN5180-Library). 
+This library is a Python adaptation of the original library by @ATrappmann ([available at ATrappmann's PN5180 Library](https://github.com/ATrappmann/PN5180-Library)).
 
-The library has been adapted to work under the control of the Linux (Rasbian) operating system. The software was tested on a Raspberry Pi 4 Compute Module.
+The library has been modified to operate on the Linux (Raspberry OS) operating system and has been tested on the RPi CM4.
 
-This library currently only supports the ISO14443 standard.
+Currently, this library supports only the ISO14443 standard.
 
 ## Hardware Configuration
-Below is how to connect the PN5180 to the Raspberry Pi Compute Module. In this case, the hardware SPI0 interface was used. The SPI0 pins are GPIO 7, 8, 9, 10, 11.
+Below are the connection instructions for interfacing the PN5180 with the Raspberry Pi Compute Module using the hardware SPI0 interface. The SPI0 pins used are GPIO 7, 8, 9, 10, and 11.
 
 | PN5180 | Raspberry Pi 4 Compute Module |
 |--|--|
